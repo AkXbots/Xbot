@@ -16,7 +16,7 @@ class Config(object):
 
     API_ID = 18202635  # integer value, dont use ""
     API_HASH = "237d1160ac8cd4767cf5b217dda3a5f6"
-    TOKEN = "5876543460:AAFSVCSxNFdAodCkNLzbKrg4jmGt3qXY-Ac"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "6381077263:AAFwGgADCheHlkWG_LgPjs8JhzY3xhZlH9k"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     REDIS_URL = "redis://default:0nLBaxJed1LJaNgn9xhL1oyTL49u4B1T@redis-14243.c85.us-east-1-2.ec2.cloud.redislabs.com:14243/matrixx-free-db"
     MONGO_DB = "mongodb+srv://sano07:sano07@cluster0.jxywgnn.mongodb.net/?retryWrites=true&w=majority"
@@ -37,11 +37,11 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "postgres://ctoixwyr:CThCpbMv1lkdUuN90qeGdZ4VxdjpgTty@snuffleupagus.db.elephantsql.com/ctoixwyr"  # needed for any database modules
     DB_URL = "postgres://ctoixwyr:CThCpbMv1lkdUuN90qeGdZ4VxdjpgTty@snuffleupagus.db.elephantsql.com/ctoixwyr"
     LOAD = []
-    BOT_USERNAME = "Hori_xprobot"
+    BOT_USERNAME = "Yumeko_testbot"
     ARQ_API_URL = "arq.hamker.dev"
     ARQ_API_KEY = "SLSFXSsdUXNSMH-ARQ"
     ERROR_LOGS = -1001655270746
-    BOT_NAME = "𝐇ᴏʀɪ 𝐊ʏᴏᴋᴏ"
+    BOT_NAME = "Yumeko"
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
