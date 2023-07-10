@@ -16,7 +16,7 @@ class Config(object):
 
     API_ID = 18202635  # integer value, dont use ""
     API_HASH = "237d1160ac8cd4767cf5b217dda3a5f6"
-    TOKEN = "6381077263:AAFwGgADCheHlkWG_LgPjs8JhzY3xhZlH9k"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "6176841347:AAEn5CEcHjXYmOvD3wDObzWBm3X5eLjnElM"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     STRING_SESSION = ""
     REDIS_URL = "redis://default:0nLBaxJed1LJaNgn9xhL1oyTL49u4B1T@redis-14243.c85.us-east-1-2.ec2.cloud.redislabs.com:14243/matrixx-free-db"
     MONGO_DB = "Shion"
@@ -38,11 +38,11 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = "postgres://ctoixwyr:CThCpbMv1lkdUuN90qeGdZ4VxdjpgTty@snuffleupagus.db.elephantsql.com/ctoixwyr"  # needed for any database modules
     DB_URL = "postgres://ctoixwyr:CThCpbMv1lkdUuN90qeGdZ4VxdjpgTty@snuffleupagus.db.elephantsql.com/ctoixwyr"
     LOAD = []
-    BOT_USERNAME = "Yumeko_testbot"
+    BOT_USERNAME = "Yumeko_Xprobot"
     ARQ_API_URL = "arq.hamker.dev"
     ARQ_API_KEY = "SLSFXSsdUXNSMH-ARQ"
     ERROR_LOGS = -1001655270746
-    BOT_NAME = "Yumeko"
+    BOT_NAME = "𝐘ᴜᴍᴇᴋᴏ"
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
@@ -55,7 +55,7 @@ class Config(object):
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     ##List of id's - (not usernames) for developers who will have the same perms as the owner
-    DEV_USERS = get_user_list("elevated_users.json", "devs")
+    DEV_USERS = get_user_list("elevated_users.json", "6273496002")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     DEMONS = get_user_list("elevated_users.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
